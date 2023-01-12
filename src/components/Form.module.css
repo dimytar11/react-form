@@ -1,0 +1,83 @@
+.mainWrapper {
+  margin: 50px;
+  background-image: url(../assets/pexels-simon-berger-1323550.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  width: 50vw;
+  border-radius: 10px;
+}
+
+.title {
+  color: rgb(255, 255, 255);
+  background-color: #48a4cb;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  justify-content: space-around;
+}
+
+.inputWrapper {
+  display: flex;
+  margin-bottom: 10px;
+  flex-direction: column;
+}
+
+.inputWrapperBlock {
+  margin-bottom: 10px;
+}
+
+.input {
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid rgb(21, 128, 111);
+}
+
+.input:focus-visible {
+  outline: none;
+}
+
+.checkbox {
+  margin-bottom: 10px;
+}
+
+.submitBtn {
+  padding: 5px;
+  margin-top: 30px;
+  height: 30px;
+  width: 200px;
+  border-radius: 10px;
+  border: 1px solid rgb(21, 128, 111);
+  background-color: rgb(2, 46, 56);
+  align-self: center;
+  color: white;
+  cursor: pointer;
+}
+
+.defaultText {
+  margin-right: 20px;
+  color: rgb(255, 255, 255);
+  width: 30%;
+  border-radius: 10px;
+  align-self: flex-end;
+  font-weight: bold;
+}
+
+.invalidFieldText {
+  color: rgb(255, 255, 255);
+  background-color: rgb(146, 2, 2);
+  border-radius: 5px;
+  margin: 2px;
+  padding-left: 5px;
+  width: 200px;
+}
